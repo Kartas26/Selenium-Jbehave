@@ -28,7 +28,7 @@ public class P2Steps {
     }
 
     @Then("We click on the CheckBox")
-    public void clickChecktBox()
+    public void clickCheckBox()
     {
         By checkBox = By.id("isAgeSelected");
         driver.findElement(checkBox).click();
